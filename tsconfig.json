@@ -17,11 +17,14 @@
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "target": "ESNext",
+    "allowJs": false,
     "strict": true,
-    "allowJs": true,
     "skipLibCheck": true,
+    "noFallthroughCasesInSwitch": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",
     "paths": {
       "~/*": ["./app/*"]
     },
